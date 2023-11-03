@@ -1,0 +1,1646 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    /*my root*/
+
+ --pr-color:#c77693;
+ --bg-danger:#c95439;
+ --primary-font:"Poppins","sans-serif";
+ --bg-gray: #f8f8f8a8;
+
+ --product-title-font: 'Oswald', sans-serif;
+ --comment-fonr:poppins;
+
+
+    /******************/
+  --blue: #3490dc;
+  --indigo: #6574cd;
+  --purple: #9561e2;
+  --pink: #f66d9b50;
+  --red: #e3352fb0;
+  --orange: #f6993f;
+  --yellow: #ffed4a;
+  --green: #38c172;
+  --teal: #4dc0b5;
+  --cyan: #6cb2eb;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #3490dc;
+  --secondary: #6c757d;
+  --success: #38c172;
+  --info: #6cb2eb;
+  --warning: #ffed4a;
+  --danger: #e7312b;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/****** Ay ktba dar liha selection idar b primary color*****/
+  ::selection{
+      color: var(--pr-color);
+  }
+
+/*alert Style*/
+.nice-Message{
+    background-color: white;
+    line-height: 40px;
+    border-left: 5px green solid;
+    padding: 4px;
+    position: relative;
+
+}
+
+.error-Message{
+    background-color: white;
+    line-height: 40px;
+    border-left: 5px rgb(216, 0, 0) solid;
+    padding: 4px;
+    position: relative;
+
+}
+.info-Message{
+    background-color: white;
+    line-height: 40px;
+    border-left: 5px rgb(202, 216, 0) solid;
+    padding: 4px;
+    position: relative;
+
+}
+
+#close{
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 93%;
+    top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Style dyal dak head liatykon lfo9 otaytktb fih category ola product ...*/
+.div-header{
+    background-color: #ececec52;
+    box-shadow: rgba(223, 222, 222, 0.603) 3px 3px 3px 3px;
+
+}
+
+
+
+
+
+
+/********* navigation style ***************/
+
+li,a,button{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+/*my danger button*/
+.btn-danger{
+    background-color: var(--bg-danger) !important;
+    font-weight: bold;
+    border: none;
+}
+.btn-danger:hover{
+    background: transparent !important;
+    background-color: transparent !important;
+    border: 1px solid var(--bg-danger);
+    color: var(--dark);
+}
+.logo{
+    width: 60px !important;
+    margin-right: 50px !important;
+}
+.fa-user{
+    /*icon duser*/
+    color: #6c757d;
+   }
+.nav-link:hover{
+
+color: var(--pr-color) !important;
+}
+.register{
+    width: 200px;
+    margin-left: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 3%;
+    background-color: var(--primary);
+    font-family: var(--primary-font);
+    color: white !important;
+    font-weight: bold;
+}
+.register:hover{
+    color: #6c757d !important;
+    border: 1px solid var(--primary);
+    border-radius: 5px 5px 5px 5px;
+    background-color: transparent;
+
+}
+
+
+
+
+
+
+/******* admin navigation ************/
+.admin-nav li a:hover{
+    color: var(--gray)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********  Home style fin kyna dok i3lanat kaytrko***********/
+.home h2{
+    color:var(--gray);
+    text-shadow:3px 1px #8f8e8eb0;
+}
+.home p{
+    color: var(--bg-gray);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.home .home-banner-1,
+.home  .home-banner-2
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 650px;
+    position: relative;
+
+}
+.home .home-banner-1{
+    background-image: url("../images/Background/BeautifulWomanShooping.jpg");
+}
+.home  .home-banner-2{
+    background-image: url("../images/Background/Whitebgmanshoop.webp");
+}
+
+.home .home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%,-50%);
+}
+.home .home-banner-text h2{
+    font-size: 6rem;
+}
+
+.home .carousel-indicators [data-bs-target]{
+    /*dok mostatilat s4ikokin lifltht*/
+    background-color: var(--pr-color);
+    margin: 2px;
+    border: none;
+    width: 2.5rem;
+    height: 0.31rem;
+}
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon{
+    background: transparent;
+}
+.home .silder-icon{
+    font-size: 3rem;
+    color: var(--pr-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************** Product Style *****************/
+.products{
+    /*hadak section kbir lifih ga3 product khas blproduct*/
+    padding-top: 4.75rem;
+
+}
+.head h2::before{
+    /*str litht mn dak title lidrna*/
+ content: '';
+ width: 30%;
+ height: 0.125rem;
+ background-color: var(--pr-color);
+ position: absolute;
+ bottom: 0;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ border-radius: 0.625rem;
+
+}
+
+.product-list .product-info{
+    /*kifach aytstfo m3lomat dyal products fdiv fch kaynin*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.product-list  .product-image{
+    /*ncentri tsawr fdiv fach kaynin*/
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.product-list  .product-image img{
+    /*images ndir liha height dyaha omsa2il dyalha*/
+    height: 300px;
+    transition: all 500ms ease-in-out;
+}
+
+
+.product-list  .product-image img:hover{
+    /*kolma drt hover 3la image tkhrj */
+    transform: scale(1.09);
+    transition: all ease 0.3s;
+}
+
+.product-list .product-info h2{
+  font-size: 2.125rem;
+  font-weight: 400;
+  color: var(--gray-dark);
+  transition: all ease 0.3s 0;
+
+ }
+ .product-list .product-info h2:hover{
+    color: var(--pr-color);
+   }
+   .product-list .product-info .product-mad{
+    font-family: serif;
+    font-weight: bolder;
+    color: var(--gray);
+}
+   .product-list .product-info .product-prix {
+       font-family: var(--font-family-sans-serif);
+       font-weight: bold;
+   }
+
+   .product-list .product-info .show_product{
+       margin-top: 4px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 90px;
+       width: 150px;
+       height: 50px;
+       background-color: var(--pr-color);
+       border-radius: 10px;
+
+
+   }
+   .product-list .product-info .show_product a{
+    /*color: var(--gray-dark);*/
+    color: var(--white);
+    font-family: var(--primary-font);
+    text-decoration: none;
+    font-size: 1.123rem;
+    font-weight: bolder;
+   }
+   .product-list .product-info .show_product:hover{
+    background: transparent;
+    border: 0.10rem solid var(--pr-color);
+   }
+   .product-list .product-info .show_product:hover a{
+    color: var(--gray-dark);
+   }
+
+  /* nbdl color dpartiya dpagination */
+  .my-pagination .page-item .page-link{
+    color: var(--pr-color) !important;
+}
+  .my-pagination .page-item.active .page-link{
+      background-color: var(--pr-color) !important;
+      border-color: var(--pr-color) !important;
+      color: white !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********   Show Product style        ****************/
+
+ .Show-product .show-product-info{
+      max-height:auto;
+ }
+
+.Show-product .show-product-image{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pr-color);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px 2px var(--pr-color) ;
+}
+/*style dyal sapn lifih dispo in stock ola non dispo*/
+.Show-product .show-product-image .despo-msj{
+  background-color: rgba(148, 241, 9, 0.897);
+  font-family: var(--font-family-sans-serif);
+  font-weight: bold;
+  width: 200px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.Show-product .show-product-image .non-despo-msj{
+    background-color: rgb(172, 0, 0);
+    font-family: var(--font-family-sans-serif);
+   font-weight: bold;
+   color: white;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+.Show-product .show-product-image:hover img{
+    background: transparent;
+    transform: skew(5deg,-20deg);
+    transform: scale3d(1.2,1.2,1.2);
+    transition:  all 2s ease-in-out;
+
+}
+.Show-product .show-product-image img{
+    background: transparent;
+    width: 280px;
+    height: 300px;
+}
+
+.Show-product .show-product-info .show-product-title{
+   font-family: var(--product-title-font);
+   font-weight: bolder;
+   color: var(--secondary);
+}
+.Show-product .show-product-info .product-prix{
+    font-weight: bolder;
+}
+.Show-product .show-product-info .info-title{
+    font-family: var(--product-title-font);
+    font-size: 1.4rem;
+    color: var(--gray);
+   position: relative;
+   text-transform: uppercase;
+}
+
+.Show-product .show-product-info .prd_info_hr {
+    width: 200px;
+    height: 4px;
+    background-color: var(--pr-color);
+    margin-left: 0;
+}
+ /*.Show-product .show-product-info .info-title::before{
+ content: "";
+ width: 100px;
+ height: 4px;
+ background-color: var(--pr-color);
+ position: absolute;
+ top: 95%;
+ bottom: 0;
+ left: -5%;
+ transform: translate(50%,50%);
+ border-radius: 0.625rem;
+}*/
+.Show-product .show-product-info .product-desc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: var(--font-family-sans-serif);
+    text-align: justify;
+}
+
+.Show-product .show-product-info .product-mad{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: var(--gray);
+}
+
+
+/********* Comments Section   ***********/
+
+.comment{
+    padding: 25px 10px;
+
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment .add-comment .form{
+    display: flex;
+    flex-direction: column;
+}
+.comment .add-comment .form textarea{
+    padding:  5px;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    border-bottom: 4px solid var(--pr-color) ;
+
+}
+.comment .add-comment .form input{
+    margin-top: 10px;
+    background-color: transparent;
+    width: 160px;
+    line-height: 30px;
+    margin-left: 10px;
+    height: 35px;
+    border: 2px solid var(--pr-color);
+    border-radius: 4px;
+    font-weight: bold;
+    color: var(--pr-color);
+   }
+
+   .comment .add-comment .form input:hover,.comment .add-comment .form input:active{
+    background-color: var(--pr-color);
+    color: var(--white);
+
+}
+
+ /*Comment Box fin ayt2afichaw les commentairs*/
+  .comment  .comment-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+ }
+ .coment-box-heading{
+  letter-spacing: 1px;
+  margin: 30px 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .coment-box-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: var(--pr-color);
+    color: #ffffff;
+    padding: 10px 20px;
+
+   }
+   .coment-box-heading span{
+       font-size: 1.3rem;
+       color: #0f0f0f50;
+       margin-bottom: 10px;
+       letter-spacing: 10px;
+       text-transform: uppercase;
+   }
+
+.comment-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.comment-box-container .comment-info{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1) ;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+/*User Profi info*/
+.profile .profil-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile .profil-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile  .name-user{
+    display: flex;
+    flex-direction: column;
+}
+.profile  .name-user strong{
+   color: #2d2d2d;
+   font-size: 1.1rem;
+   letter-spacing: 0.5px;
+}
+.profile .name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.date{
+    font-size: 8px;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.client-comment p{
+    /*Comment Style*/
+
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+
+.comment-info:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+
+
+
+
+
+
+/***** User orders style *********/
+
+ .order-box-heading{
+  letter-spacing: 1px;
+  margin: 30px 0;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .order-box-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: var(--pr-color);
+    color: #ffffff;
+    padding: 10px 20px;
+
+   }
+   .order-box-heading span{
+       font-size: 1.3rem;
+       color: #0f0f0f50;
+       margin-bottom: 10px;
+       letter-spacing: 10px;
+       text-transform: uppercase;
+   }
+
+
+
+
+
+
+
+/*form add to card style */
+
+
+
+
+
+
+
+
+
+
+
+
+/*Payment section style in checkout view*/
+
+ .payment .amount{
+     font-family: serif;
+     background-color: var(--pr-color);
+     width: 250px;
+     height: 34px;
+     padding: 5px;
+     border-radius: 5%;
+ }
+
+
+
+
+
+
+
+/*************  Contact Section       *************/
+
+.contact .container div{
+    margin: 20px 0;
+}
+
+.contact-middle div{
+  /*divat lfihom dok m3lomat 3liya */
+  text-align: center;
+  padding: 25px 0;
+  background-color: var(--pr-color);
+  color:#fff;
+  border-radius: 5px 5px 5px 5px;
+}
+.contact-middle div span{
+    display: block;
+
+}
+.contact-icon{
+    font-size: 30px;
+}
+
+
+.contact-middle div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-middle div p{
+    font-weight: 300;
+    opacity: 0.7;
+}
+.contact-middle{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+ }
+
+   /** style dyal contact-bottom fin kayna contact form o kharita dyal Map dyali**/
+
+ .contact-bottom{
+   margin-top: 50px !important;
+ }
+ /*fles ecrans lkbar form tji hda lkharita*/
+.contact-bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+
+ .contact-bottom .form{
+     padding: 20px;
+ }
+ .contact-bottom .form input[type="text"],.contact-bottom .form input[type="email"],.contact-bottom .form textarea{
+
+     width: 100%;
+     font-size : 16px;
+     padding :10px 15px;
+     margin: 10px 0;
+     border: 1px solid var(--pr-color) ;
+     outline: none;
+     border-radius: 5px;
+ }
+ .contact-bottom .form .btn-send{
+     background: transparent;
+     border-width: 100px;
+     height: 35px;
+     border: 2px solid var(--pr-color);
+     border-radius: 3px;
+     font-weight: bold;
+     color: var(--pr-color);
+
+ }
+ .contact-bottom .form .btn-send:hover,.contact-bottom .form .btn-send:active{
+    background-color: var(--pr-color);
+    color: var(--white);
+
+}
+.contact-bottom .my_map{
+ border-radius: 10px 10px 10px 10px;
+ box-shadow:1px 1.2px 1.3px 1px var(--pr-color);
+}
+
+
+
+/********** Footer Section Style ********************/
+.footer{
+    background-color: var(--pr-color);
+    padding: 25px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid rgb(59, 54, 54);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 9px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+
+    opacity: 0.9;
+}
+.footer .list{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.footer .list li{
+  display: inline-block;
+  margin: 0 4px;
+}
+.footer .list li a{
+    color: rgb(65, 62, 62) !important;
+    text-decoration: none;
+    opacity: 0.8;
+    font-weight: bold;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+.footer .copyright:hover{
+
+    color: rgb(77, 77, 77);
+}
+
+
+
+
+
+
+/********************* Profile and edit style    *******************************/
+
+ #profile{
+     /*body dyal view profile*/
+     background-color: #e5e6e7;
+
+
+ }
+ #profile:focus{
+     outline: none !important;
+ }
+ #profile .profile-box{
+     box-sizing: border-box;
+     width: 153px;
+     height: 153px;
+     border: 2px solid #d68ba5;
+     box-shadow: -3px -3px 7px #ffffff73,3px 3px 5px rbga(94,104,121,0.288);
+     border-radius: 50%;
+     background-color: white;
+     margin-top: 5px;
+     overflow: hidden;
+     transition: all 1s;
+
+ }
+#profile .profile-box img{
+    box-sizing: border-box;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    border: 5px solid #d68ba5;
+    padding: 3px;
+    background-color: white;
+    transition: all 1s;
+}
+
+.profile-box input[type='text']{
+    margin-top: 25px;
+}
+
+.profile-box input[type='text'],.profile-box input[type='email'],.profile-box input[type='password']
+{
+    outline: none;
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color: #d68ba5;
+    margin-bottom: 38px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid var(--pr-color);
+    font-family:  'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+
+}
+
+.profile-box input[type='text']:focus,.profile-box input[type='email']:focus,
+.profile-box input[type='password']:focus
+{
+  border-bottom: 2px solid var(--pr-color);
+  border-bottom-right-radius: 20px;
+  color: var(--pr-color);
+  transition: 0.2s ease;
+
+}
+
+.profile-box .btn{
+    border: 1px solid var(--pr-color);
+    text-decoration: none;
+    background: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+.profile-box  .btn:hover{
+    transform: scale(1.1);
+}
+.profile-box input[type='file']{
+    display: none;
+}
+.profile-box label{
+    box-sizing: border-box;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border: 1px solid var(--pr-color);
+    padding: 2px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ;
+}
+
+.profie-box label:hover{
+    background: var(--pr-color);
+    color: black;
+}
+
+
+#profile .profile-box:hover{
+    width: 360px;
+    height: 610px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#profile .profile-box:hover img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 31%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1400px){
+    /*navigation style*/
+/*style dregister ikon 4ir fles ecran lkbar*/
+.home-banner-text{
+    margin-left: 50px;
+}
+.register{
+    width: 200px;
+    margin-left: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 3%;
+    background-color: var(--primary);
+    font-family: var(--primary-font);
+    color: white !important;
+    font-weight: bold;
+}
+
+
+   /*****  Contact section style****/
+
+
+
+   /*********** Comments Box Style          ***************/
+
+   .comment-info{
+        width: 45% !important;
+        padding: 10px !important;
+    }
+
+}
+
+    /*ecran kbira  bhal tabletat ipad pro */
+        @media (max-width:1030px){
+
+        /*Home style*/
+        .home .home-banner-1,
+        .home .home-banner-2{
+            background-position: 50% center;
+            min-height: 550px;
+        }
+        .home .home-banner-text{
+            margin-left: 50px;
+            transition: translate(-80%,-50%);
+        }
+
+        .home p{
+            color: var(--bg-gray);
+            font-size: 26px;
+        }
+
+
+
+
+
+
+           /*Product style*/
+           .product-list .product-info .show_product{
+            margin-left: 50px;
+
+                 }
+
+
+
+
+
+
+
+            /*Show product style*/
+            /*chwya dles modification f ipade pro max*/
+            .Show-product .show-product-info .product-info .show-product-title{
+                font-size: 2.9rem;
+                margin-bottom: 30px;
+            }
+            .Show-product .show-product-info .product-info .product-prix{
+               font-weight: bolder;
+               font-size: 1.7rem;
+
+            }
+
+             .Show-product .show-product-info .product-info  .info-title{
+                font-size: 2.3rem;
+
+             }
+
+               .Show-product .show-product-info .prd_info_hr {
+                width: 200px;
+                height: 4px;
+                background-color: var(--pr-color);
+
+            }
+               .Show-product .show-product-info .product-desc{
+                  font-size: 1.9rem;
+               }
+               .Show-product  form .form-group label{
+                 font-size: 1rem;
+               }
+
+
+
+
+               /*****  Contact section style****/
+
+               .contact-middle{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 20px;
+             }
+
+
+
+             /*comment box Style*/
+
+
+        }
+
+
+
+    /*ipade 3adya osize libhalha lirab l 991px ola 9el mno bchwya*/
+    @media(max-width:991px){
+        /*Home style*/
+        .home h2{
+            font-size: 2rem;
+        }
+        .home p{
+            color: var(--bg-gray);
+            font-weight: bold;
+            background-color: rgba(255, 255, 0, 0.247);
+            font-size: 1.6em !important;
+        }
+        .home .home-banner-text{
+            margin: 0;
+            transform: translate(-70%,-50%);
+        }
+
+
+
+
+
+
+
+
+        /*Product style*/
+        .product-list .product-info .show_product{
+            margin-left: 80px;
+
+                }
+
+
+
+
+
+
+
+
+
+
+             /* Show product style mkhrb9 chwya f ipade angadoh*/
+        .Show-product {
+            width: 100% !important;
+        }
+
+
+                /*style dyal sapn lifih dispo in stock ola non dispo*/
+        .Show-product .show-product-image .despo-msj{
+            background-color: rgba(148, 241, 9, 0.795);
+            font-family: var(--font-family-sans-serif);
+            font-weight: bold;
+            width: 200px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 5px 5px 5px 5px;
+            position: absolute;
+            top: 3px;
+            left: 10px;
+        }
+        .Show-product .show-product-image .non-despo-msj{
+            background-color: rgb(172, 0, 0);
+            font-family: var(--font-family-sans-serif);
+            font-weight: bold;
+            color: white;
+            width: 200px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 5px 5px 5px 5px;
+            position: absolute;
+            top: 3px;
+            left: 10px;
+            }
+
+        .Show-product .show-product-info .product-info .show-product-title{
+            font-size: 2.6rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .Show-product .show-product-info .product-info .product-prix{
+            padding-left: 10px;
+            word-spacing: 4px;
+            border-radius: 0 10px 10px 0;
+           background-color: #eeff02ec;
+           width: auto;
+           height: 40px;
+           display: flex;
+           align-items: center;
+           font-weight: bolder;
+           font-size: 1.7rem;
+           position: absolute;
+           top: -450px;
+           left: 25px;
+        }
+        .Show-product .show-product-info .product-info .product-prix::before{
+            content: "";
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            top: -0.6px;
+            left: -39px;
+            border-color: transparent #eeff02ec  transparent  transparent  ;
+            border-width: 21px;
+            border-style: solid;
+
+         }
+         .Show-product .show-product-info .prd_info_hr {
+            width: 200px;
+            height: 4px;
+            background-color: var(--pr-color);
+            text-align: center;
+            margin-left: 35%;
+
+        }
+         .Show-product .show-product-info .product-info  .info-title{
+            font-size: 2rem;
+            text-align: center;
+         }
+
+           .Show-product .show-product-info .product-desc{
+              font-size: 1.8rem;
+           }
+           .Show-product  form .form-group label{
+            font-size: 1.5rem;
+          }
+
+
+
+           /** Contact Section style ****/
+
+           .contact-middle{
+               display: grid;
+               grid-template-columns: repeat(2,1fr);
+               grid-gap: 20px;
+            }
+
+
+
+
+     }
+
+
+
+
+            /*bnisba ltelephonat bhal iphone ohada li9el mn 776 okber mn 300*/
+        @media (max-width:767px){
+            /*navigation style*/
+            /*style dregister fles ecrans s4ar*/
+
+            .register{
+                margin-left: 0;
+                background-color: transparent;
+                color: var(--bg-gray) !important;
+                font-family: var(--font-family-sans-serif);
+                font-weight: normal;
+                text-align: justify;
+            }
+            .register:hover{
+                border: none;
+                font-family: var(--font-family-sans-serif);
+                font-weight: normal;
+                color: #e67e22 !important;
+
+
+            }
+            /*icon dusr matkonch f ecrans s4ar*/
+            .fa-user{
+                display: none;
+            }
+            .login{
+                transform: translateX(-1%); /*bach login mayb9ach fiha dak margin lift tankhzoha chwya bach tji 9d 9d m3a les liens lkhrin*/
+                margin-left: 0 !important;
+            }
+
+
+
+
+
+
+
+
+
+
+        /*Home style*/
+        .home h2{
+            font-weight: bold;
+            color: rgba(80, 81, 82, 0.781);
+            }
+            .home p{
+                color: rgb(255, 255, 255);
+                background-color: transparent;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+            .home .home-banner-1,
+            .home .home-banner-2{
+                background-position: 54% center;
+            }
+            .home .home-banner-text{
+                margin: 0;
+                transform: translate(-50%,-50%);
+               text-align: center;
+            }
+            .home .home-banner-text h2{
+            font-size: 3rem;
+            }
+            .home .home-banner-text p{
+                font-size: 1.2rem;
+            }
+            .home .home-banner .home-banner-text .btn-danger{
+                padding: 0.5rem 1.5rem;
+            }
+            .home .slider-icon{
+                font-size: 2rem;
+            }
+                    /*Product style*/
+            .product-list .product-info .show_product{
+            margin-left: 90px;
+
+                    }
+
+
+
+
+
+
+
+
+
+     /*Show product style*/
+              .Show-product {
+               margin-right: 0 !important;
+            }
+
+              .Show-product .show-product-image img{
+                width: 300px;
+            }
+             .Show-product .show-product-image{
+              margin: 0 !important;
+              width: 380px;
+              height: 500px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: var(--pr-color);
+              border-radius: 5px 5px 5px 5px;
+              box-shadow: 2px 2px 2px 2px var(--pr-color) ;
+          }
+          .Show-product .show-product-image:hover img{
+              background: transparent;
+              transform: scale(1.2);
+              transition:  all 2s ease-in-out;
+
+          }
+
+
+            .Show-product .show-product-info .product-info .show-product-title{
+                font-size: 2rem;
+                margin-bottom: 30px;
+            }
+            .Show-product .show-product-info .product-info .product-prix{
+               font-weight: bold;
+               font-size: 1rem;
+
+            }
+
+             .Show-product .show-product-info .product-info  .info-title{
+                font-size: 1.5rem;
+
+             }
+
+               .Show-product .show-product-info .prd_info_hr {
+                width: 155px;
+                height: 3px;
+                background-color: var(--pr-color);
+                text-align: center;
+                margin-left: 27%;
+
+            }
+               .Show-product .show-product-info .product-desc{
+                  font-size: 1rem;
+               }
+               .Show-product  form .form-group label{
+                 font-size: 1rem;
+               }
+               .Show-product  form{
+                width: 380px;
+            }
+
+
+
+            /********** Contact Section ********/
+
+           .contact-middle{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+         }
+
+         .contact-bottom{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+
+
+
+          /***** Comment Box Style ******/
+          .comment-info{
+              width: 100% !important;
+
+          }
+          .coment-box-heading h1{
+              font-size: 1.4rem !important;
+          }
+
+
+
+            /*** User Orders style****/
+            .order-box-heading h1{
+                font-size: 1.4rem !important;
+            }
+
+
+    }
+
+
+
+
+
+     /*small screen*/
+    @media (max-width:330px){
+
+      .home .home-banner-text{
+          font-size: 1rem;
+      }
+      .home h2{
+        font-size: 1.9rem !important;
+        font-weight: bold;
+    }
+      .home p{
+          font-size: 5px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+      /*product style*/
+      .product-list .product-info .show_product{
+        margin-left: 50px;
+
+             }
+
+
+       /*Show product style*/
+       .Show-product {
+        margin-right: 0 !important;
+     }
+
+            .Show-product .show-product-image img{
+                width: 250px;
+            }
+        .Show-product .show-product-image{
+            margin: 0 !important;
+            width: 260px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--pr-color);
+            border-radius: 5px 5px 5px 5px;
+            box-shadow: 2px 2px 2px 2px var(--pr-color) ;
+        }
+
+        .Show-product .show-product-image:hover img{
+            background: transparent;
+            transform: scale(1.2);
+            transition:  all 2s ease-in-out;
+
+        }
+
+        .Show-product .show-product-info .product-info .product-prix{
+            padding-left: 10px;
+            word-spacing: 4px;
+            border-radius: 0 10px 10px 0;
+            background-color: #eeff02ad;
+            width: auto;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            font-weight: bolder;
+            font-size: 1.7rem;
+            position: absolute;
+            top: -350px;
+            left: 25px;
+        }
+        .Show-product .show-product-info .product-info .product-prix::before{
+            content: "";
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            top: -0.5px;
+            left: -29.5px;
+            border-color: transparent #eeff02ad  transparent  transparent  ;
+            border-width: 15px;
+            border-style: solid;
+
+        }
+        .Show-product .show-product-info .prd_info_hr {
+            width: 130px;
+            height: 2px;
+            background-color: var(--pr-color);
+            text-align: center;
+            margin-left: 20%;
+
+        }
+     .Show-product .show-product-info .product-info .show-product-title{
+         font-size: 1.5rem;
+         text-align: center;
+         margin-bottom: 30px;
+     }
+     .Show-product .show-product-info .product-info .product-prix{
+        font-weight: bold;
+        font-size: 1rem;
+
+     }
+
+      .Show-product .show-product-info .product-info  .info-title{
+         font-size: 1.2rem;
+
+      }
+
+        .Show-product .show-product-info .product-desc{
+           font-size: 0.7rem;
+        }
+        .Show-product  form{
+            width: 250px;
+        }
+        .Show-product  form .form-group label{
+          font-size: 0.5rem;
+        }
+
+
+
+        /******** Comment Box Style *******/
+         .box-top{
+             flex-wrap: wrap !important;
+             margin-bottom: 10px !important;
+         }
+         .date{
+             margin-top: 10px !important;
+         }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /********* Category swiper style ********/
+
+
+    .catsection {
+        position: relative;
+        height: 100%;
+      }
+
+      .catsection {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+        background: var(--pr-color);
+      }
+
+      .swiper-slide  {
+        text-align: center;
+        font-size: 18px;
+        width: 270px !important;
+        background: var(--pr-color);
+       margin: 0;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      .swiper-slide a{
+          color: var(--white);
+          font-family: var(--primary-font);
+          font-weight: bold;
+          font-size: 0.9rem;
+          text-decoration: none;
+      }
+      .swiper-slide a:hover{
+        color: var(--bg-gray);
+        font-weight: bold;
+        text-decoration: none;
+    }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+/***************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

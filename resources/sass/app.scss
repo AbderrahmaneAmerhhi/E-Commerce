@@ -1,0 +1,28 @@
+// alert Style
+.nice-Message{
+    background-color: white;
+    line-height: 40px;
+    border-left: 5px green solid;
+    padding: 4px;
+    position: relative;
+    #close{
+        border: none;
+        background: transparent;
+        font-weight: bold;
+        font-size: 30px;
+        position: absolute;
+        left: 90%;
+        top: 4px;
+    }
+}
+
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
