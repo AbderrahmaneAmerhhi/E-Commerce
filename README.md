@@ -14,8 +14,8 @@ I built the app using laravel , made a simple backend CRUD and use blade in fron
 ### Technologies used in Backend
 
 | Technology        |        Description        | Version |
-| :---------------- | :-----------------------: | :-----: | ---- |
-| Php               |       PHP language        |  ^7.0   | ^8.0 |
+| :---------------- | :-----------------------: | :-----: |
+| Php               |       PHP language        |  ^7.0   |
 | Laravel           | Laravel backend framework |  ^8.65  |
 | laravel/ui        |        UI Package         |  ^3.3   |
 | stripe/stripe-php |  stripe checkout Package  | ^7.100  |
