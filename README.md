@@ -131,80 +131,38 @@ PAYPAL_SANDBOX_API_SECRET=YourSecret
 
 #### Admin Login
 
-![Admin Login image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/loginadmin.png)
+![Admin Login image](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/backend/2023-11-03-22-58-03.png)
 
 #### Manage Categories
 
-![manage cats image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/catdashboardimage.png)
+![manage cats image](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/backend/2023-11-03-22-58-23.png)
 
 #### Manage Products
 
-![manage products image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageproducts.png)
-![manage products image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageproducts2.png)
+![manage products image1](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/backend/2023-11-03-22-58-33.png)
 
-#### Settings
+#### Manage Users comments
 
-![manage Settings image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/settings1.png)
-![manage Settings image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/settings2.png)
-
-#### Banners Settings
-
-![manage Banners image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/bannersettings.png)
-
-#### Admins and manage admin profile
-
-![manage admins image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageadminandadminprofile.png)
-
-#### Manage Orders
-
-![manage Orders image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageorders.png)
-
-#### Manage invoices
-
-![manage invoices image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/manageinvoices.png)
+![manage comm image1](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/backend/2023-11-03-23-00-18.png)
 
 ## Some user side images
 
 #### User Login Register
 
-![User Login image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/loginuser.png)
-![User Register image](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/registerdarkmode.png)
+![User Login image](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/login.png)
+![User Register image]https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/register.png)
 
 #### Home
 
-![ home image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/home1.png)
-![ home image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/home2.png)
-
-#### Contact Us
-
-![ Contact image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/contactus.png)
+![ home image1](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/home1.png)
+![ home image2](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/home2.png)
+![ home image3](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/HomeProducts.png)
+![ home image4](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/homecontact.png)
 
 #### Show Porduct
 
-![ Porduct image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/showproduct.png)
+![ Porduct image1](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/showproduct.png)
 
 #### Cart
 
-![ Cart image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/cart.png)
-
-#### Open Ticktes
-
-![ Open Ticktes image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/openTicket.png)
-
-#### Ticktes
-
-![  Ticktes image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/tickets.png)
-
-#### Invoices
-
-![  invoices image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/invoices.png)
-
-#### User Profile
-
-![  User Profile image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/userprofile.png)
-
-## Some DarkMode images
-
-![  User DarkMode image1](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/frontend/Darkmodefront.png)
-![  User DarkMode image2](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/backend/darkmode.png)
-![  User DarkMode image3](https://github.com/AbderrahmaneAmerhhi/Digital-store/blob/main/public/Githubfiles/auth/registerdarkmode.png)
+![ Cart image1](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/cart.png)
