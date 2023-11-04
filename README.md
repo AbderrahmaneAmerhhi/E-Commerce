@@ -25,7 +25,7 @@ I built the app using laravel , made a simple backend CRUD and use blade in fron
 
 ```bash or terminal
   # Cloning app
-  git clone  https://github.com/AbderrahmaneAmerhhi/DSHOPV2.git
+  git clone  https://github.com/AbderrahmaneAmerhhi/E-Commerce
 
   # install composer
    composer install
