@@ -150,7 +150,7 @@ PAYPAL_SANDBOX_API_SECRET=YourSecret
 #### User Login Register
 
 ![User Login image](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/login.png)
-![User Register image]https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/register.png)
+![User Register image](https://github.com/AbderrahmaneAmerhhi/E-Commerce/blob/main/public/images/github/frontend/register.png)
 
 #### Home
 
